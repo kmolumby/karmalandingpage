@@ -1,10 +1,11 @@
-/*temporary adjustments*/
+/*temporary adjustments
 body {
 	background-color: LightGrey;
 }
 div {
 	border: 1px solid Chocolate;
 }
+ */
 
 html {
 	box-sizing: border-box;
@@ -96,6 +97,7 @@ body {
 	display: block;
 	font-weight: 300;
 	overflow: auto;
+	-webkit-font-smoothing: antialiased;
 
 }
 
@@ -138,6 +140,7 @@ body {
 .cases {
 	background-color: #fff;
 	padding-bottom: 6rem;
+	-webkit-font-smoothing: antialiased;
 
 }
 
@@ -167,11 +170,58 @@ body {
 }
 
 
+/* Footer */
 
 
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+
+.social .icons > li {
+
+	
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	list-style: none;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+	vertical-align: baseline;
+}
+
+.social h5 {
+
+	font-size: 1.03rem;
+	font-weight: 400;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.social .twitter {
+	color: #55acee;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .instagram {
+	color: #3f729b;
+}
 
 
-
+.social .copy {
+	font-weight: .9rem;
+	font-weight: 300;
+	color: #838994;
+}
 
 
 
